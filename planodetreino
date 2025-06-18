@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS plano_treino (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,  
+  cod_cliente VARCHAR(6) NOT NULL
+);
+
+
+INSERT INTO plano_treino (cod_cliente)
+VALUES ('12222');
+
+-- Consulta os dados
+SELECT * FROM plano_treino;
